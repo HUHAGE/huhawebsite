@@ -1,7 +1,21 @@
-# main links
+# 主导航菜单
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "首页"
+    url: /
+  - title: "随笔"
+    url: /essays/
+  - title: "读书"
+    url: /books/
+  - title: "归档"
+    url: /archives/
+  - title: "标签"
+    url: /tags/
+  - title: "分类"
+    url: /categories/
+  - title: "关于"
+    url: /about/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

@@ -74,7 +74,7 @@ There are three ways to install: as a [gem-based theme](https://jekyllrb.com/doc
 
 ### Gem-based method
 
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
+With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme's gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll's build process.
 
 This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
@@ -287,3 +287,40 @@ Lunr is distributed under the terms of the [MIT License](http://opensource.org/l
 Minimal Mistakes incorporates [clipboard.js](https://clipboardjs.com/),
 Copyright (c) 2021 Zeno Rocha.
 Clipboard.js is distributed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+# HUHA的个人博客
+
+这是我的个人博客源码，基于Jekyll + Minimal Mistakes主题构建。
+
+## 网站结构
+.
+├── data/ # 数据文件
+├── pages/ # 独立页面
+├── posts/ # 博客文章
+├── books/ # 读书笔记
+├── essays/ # 随笔文章
+├── assets/ # 静态资源
+│ ├── images/ # 图片资源
+│ ├── css/ # 样式文件
+│ └── js/ # JavaScript文件
+└── config.yml # 配置文件
+
+
+## 主要功能
+
+- 文章归档
+- 分类浏览
+- 标签云
+- 评论系统
+- 搜索功能
+- 响应式设计
+
+## 本地运行
+
+1. 安装依赖
+bundle install
+
+2. 启动服务
+bundle exec jekyll serve

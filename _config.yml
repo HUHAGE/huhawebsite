@@ -298,4 +298,36 @@ defaults:
       header:
         show_overlay_excerpt: true
   
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      
+  # _essays
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+# 添加新的集合
+collections:
+  books:
+    output: true
+    permalink: /:collection/:path/
+  essays:
+    output: true
+    permalink: /:collection/:path/
+
+# 确保包含_pages目录
+include:
+  - _pages
 
