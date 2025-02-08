@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 permalink: /
-hidden: true
+hidden: false
 header:
   overlay_image: /assets/images/home-banner.jpg
   overlay_filter: 0.5 # 可以调整图片的暗度，0 到 1 之间
