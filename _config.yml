@@ -299,11 +299,14 @@ defaults:
         show_overlay_excerpt: true
 # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+      header:
+        overlay_image: /assets/images/home-banner.jpg
+        overlay_filter: 0.5
 # home
   - scope:
       path: "_pages/home.md"

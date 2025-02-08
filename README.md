@@ -295,6 +295,7 @@ Clipboard.js is distributed under the terms of the [MIT License](https://opensou
 这是我的个人博客源码，基于Jekyll + Minimal Mistakes主题构建。
 
 ## 网站结构
+''' 
 .
 ├── data/ # 数据文件
 ├── pages/ # 独立页面
@@ -306,7 +307,7 @@ Clipboard.js is distributed under the terms of the [MIT License](https://opensou
 │ ├── css/ # 样式文件
 │ └── js/ # JavaScript文件
 └── config.yml # 配置文件
-
+'''
 
 ## 主要功能
 
