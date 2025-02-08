@@ -15,17 +15,15 @@
     // 确保图片完全覆盖区域且居中显示
     background-position: center;
     background-size: cover;
+
+    // 隐藏头图上的所有文字
+    .wrapper {
+      display: none;
+    }
   }
 }
 
-// 如果想让文字垂直居中显示
-.custom-header-height {
-  .page__hero--overlay {
-    display: flex;
-    align-items: center;
-    
-    .wrapper {
-      width: 100%;
-    }
-  }
+// 没有头图时的样式
+.landing:not(.custom-header-height) {
+  margin-top: 2em;
 }
