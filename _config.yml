@@ -304,6 +304,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+# home
+  - scope:
+      path: "_pages/home.md"
+      type: pages
+    values:
+      layout: home
+      author_profile: true
+      classes:
+        - landing
+        - dark-theme
 # 添加新的集合
 collections:
   # books:    # 删除或注释掉
