@@ -19,7 +19,6 @@ locale                   : "zh-CN"
 rtl                      : # true, false (默认) # 将页面方向改为从右到左，用于RTL语言
 title                    : "HUHA的茅屋"
 # 自定义设置
-show_hero_image          : false  # 控制是否显示头图，true 显示，false 不显示
 title_separator          : "-"
 subtitle                 : "一间简陋的草房，住着一颗不安的心。" # 显示在网站标题下方的标语
 name                     : "HUHA"
