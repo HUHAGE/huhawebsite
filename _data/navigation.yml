@@ -2,12 +2,6 @@
 main:
   - title: "首页"
     url: /
-  - title: "随笔"
-    url: /essays/
-  - title: "读书"
-    url: /books/
-  - title: "归档"
-    url: /archives/
   - title: "标签"
     url: /tags/
   - title: "分类"
