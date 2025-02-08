@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.5
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
-  - 分类名称
+  - 分类名称，建议：读书、随笔、技术
 tags:
   - 标签1
   - 标签2
